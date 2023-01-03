@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <sys/wait.h>
-
+// but shell
 int main() {
 
   char username[1024];
@@ -46,7 +46,7 @@ int main() {
       int child_pid = fork();
       if (child_pid == 0) {
         execvp(cmd, args);
-        std::cout << "nut: invalid command" << std::endl;
+        std::cout << "but: invalid command" << std::endl;
         exit(1);
       } else {
         wait(NULL);
