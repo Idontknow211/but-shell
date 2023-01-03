@@ -1,10 +1,10 @@
-# nut-shell
-A """beautiful""" shell written in C++
+# but-shell
+An awful shell written in C++
 
 
 ## Building
 
-How does one build this so-called beautiful shell?
+How does one build this so-called awful shell?
 
 Run
 
@@ -14,7 +14,7 @@ Run
 
 or
 ```bash
-g++ main.cpp -o ./nut
+g++ main.cpp -o ./but
 ```
 
 depending on your sexual orientation
@@ -37,7 +37,4 @@ thanks bjarne stroustrup, c++ is pretty cool.
 
 thanks richard stallman, gnu is pretty cool.
 
-## Screenshots
-
-![screenshot](https://i.ibb.co/3rBN0tR/image.png)
 
